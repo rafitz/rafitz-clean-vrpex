@@ -1,0 +1,58 @@
+.chat-window {
+    top: 3.5% !important;
+    background-color: rgba(22, 22, 22, 0.6) !important;
+}
+
+.chat-input {
+    top: 25.5% !important;
+}
+
+.chat-input > div.input {
+    border-top: 2px solid #f3486b, !important;
+    background-color: #222 !important;
+}
+
+.chat-input > div.input > textarea {
+    min-height: 19.4px !important;
+    background-color: #111 !important;
+}
+
+.chat-messages {
+    font-size: 1.5vh !important;
+    height: 78% !important;
+}
+
+.chat-hide-state {
+    text-transform: uppercase;
+    font-size: 1.3vh;
+    padding: 6px;
+    font-weight: 600;
+}
+
+.msg {
+    padding-bottom: 2px !important;
+}
+
+.suggestions {
+    color: #888 !important;
+    background-color: rgba(33, 33, 33, 0.6) !important;
+    border: 1px solid rgba(22, 22, 22, 1) !important;
+    font-size: 1.4vh !important;
+}
+
+.prefix {
+    background-color: transparent !important;
+    padding: 0px 10px;
+    font-size: 1.5vh;
+}
+
+textarea {
+    background-color: transparent !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.multiline {
+    margin-left: 0% !important;
+    text-indent: unset !important;
+}

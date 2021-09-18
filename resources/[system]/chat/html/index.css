@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap&subset=latin-ext');
+
+* {
+	font-family: 'Signika', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	word-wrap: break-word;
+}
+
+.no-grow {
+	flex-grow: 0;
+}
+
+em {
+	font-style: normal;
+}
+
+#app {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+}
+
+.chat-window {
+	position: absolute;
+	margin: 25px 0 0 15px;
+	width: 40%;
+	height: 268px;
+	border-radius: 5px;
+	border: solid 1px #00000087;
+}
+
+.chat-messages {
+	position: relative;
+	height: 92%;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.chat-input {
+	position: absolute;
+	top: 259px;
+	left: 15px;
+	width: 40%;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.3);
+	width: 25%;
+	border-radius: 5px;
+	border: solid 1px #00000087;
+	padding: 5px;
+}
+
+.prefix {
+	color: #00ccff;
+	position: absolute;
+	/* margin-top: 0; */
+	font-weight: 400;
+	/* border-radius: 5px; */
+}
+
+textarea {
+	background: transparent;
+	display: block;
+	box-sizing: border-box;
+	padding: 0px 0 0 67px;
+	color: #fff;
+	width: 100%;
+	border: 0;
+	overflow: hidden;
+}
+
+textarea:focus, input:focus {
+	outline: none;
+}
+
+.msg {
+	width: 100%;
+	float: left;
+	font-family: calibri;
+	font-size: 21px;
+
+}
+
+.multiline {
+	white-space: pre-line;
+}
